@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEGHIR Samy - Développeur Informatique</title>
+    <title>Samy Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <header>
         <div class="header-content">
-            <img src="ma_photo.jpg" alt="Votre Photo" width="8%">
+            <img src="ressource/ma_photo.jpg" alt="Votre Photo" width="8%">
             <div class="header-text">
                 <h1>SEGHIR Samy</h1>
                 <h4><i>3ème année de Licence Informatique</i></h4>
@@ -25,37 +25,66 @@
             </ul>
         </nav>
     </header>
-    
 
     <section id="about">
         <h2>Mon parcours</h2>
         <div>
-            <h4>En informatique ...</h4>
-            <p>Ayant depuis toujours l'envie d'évoluer dans le monde de l'informatique, j'ai commencé ma licence  en informatique directement après l'obtention de mon bac.</p>
-            <p>L'université m'a permis d'affirmer ma forte passion pour la programmation, via toutes les matières qui y touchent, que ce soit en web, en application, ou même dans des matières plus éloignées, comme la programmation de systèmes embarqués.</p>
-            <p>Actuellement dans ma troisième année de licence informatique, j'ai pour objectif de continuer ma lancée sur un master portant essenssiellement sur le développement, et ce en alternance.</p>
-            <p>Durant cette troisième année de licence, j'ai réalisé une mobilité à l'étranger grâce à Erasmus, à Bucarest. Cette expérience m'a permis de découvrir de nouveaux horizons, et m'a aussi forgé dans l'autonomie, que ce soit au quotidien ou dans le travail.</p>
-            <h4>... et ailleurs</h4>
-            <p>De nature curieuse, j'ai toujours voulu pratiquer le plus d'activités et de sports possible, ce qui m'a amené à tout le temps tester de nouvelles choses.</p>
-            <p>J'ai donc naturellemnt à 18 cherché à découvrir le monde du travail sous un autre prisme que l'informatique, et je travaille donc chaque été en tant que serveur pour le festival d'Avignon, au bar du Festival In.</p>
-            <p>Cette expérience m'apporte énormement, car le rythme du festival est très soutenu et ne pardonne pas, il faut alors développer des capacités d'adaptations et de travail d'équipe extrême.</p>
+            <div>
+                <h4>Actuellement</h4>
+                <p>J'habite à Avignon où je termine ma dernière année de licence en informatique au CERI.</p>
+            </div>
+            <div>
+                <h4>En informatique ...</h4>
+                <p>J'ai toujours eu envie d'évoluer dans le monde de l'informatique, c'est donc tout naturellement que j'ai commencé ma licence directement après l'obtention de mon bac.</p>
+                <p>L'université me permet d'affirmer ma forte passion pour la programmation, via toutes les matières qui s'y réfèrent, que ce soit en web, en logiciel, ou même dans des matières plus éloignées, comme la programmation de systèmes embarqués.</p>
+                <p>Après l'obtention de ma licence, j'ai pour objectif de continuer ma lancée sur un master portant essenssiellement sur le développement, en alternance afin d'acquérir une expérience dynamique formatrice au sein d'une entreprise.</p>
+                <p>Durant cette troisième année de licence, j'ai réalisé une mobilité à Bucarest dans le cadre du programme Erasmus. Cette expérience m'a permis de découvrir de nouveaux horizons et de développer mes capacités d'autonomie et d'adaptation, que ce soit dans la gestion de ma vie quotidienne que dans  l'organisation de mon travail.</p>
+            </div>
+            <div>
+                <h4>... et ailleurs</h4>
+                <p>De nature curieuse, j'aime découvrir et pratiquer des activités différentes dans les domaines du sport et de la culture.</p>
+                <p>J'ai donc naturellement cherché à découvrir le monde du travail sous un autre prisme que l'informatique, et je travaille chaque été depuis 3 ans en tant que serveur au bar du festival In d'Avignon, .</p>
+                <p>Cette expérience m'apporte énormement, car le rythme du festival est très soutenu, il faut alors faire preuve d'investissement, de rigueur et d'esprit d'équipe.</p>
+            </div>                 
         </div>
     </section>
-    
 
     <section id="projects">
         <h2>Projets</h2>
-        <!-- Ajoutez ici une liste de vos projets avec des descriptions -->
+        <div class="projects-container">
+            <div class="project">
+                <img src="ressource/projet24h/cover.png" alt="24h">
+                <h3>Une nuit au CERI</h3>              
+                <p>Réalisé dans le cadre d'un évènement "24H pour coder" organisé par l'université d'Avignon, "Une nuit au CERI" est un jeu d'horreur à la première personne réalisé sur Unity par moi et 3 collaborateurs.</p>
+                <a href="projet24h.html">En savoir plus</a>
+            </div>
+            <div class="project">
+                <img src="ressource/projetJDR/coverJDR.png" alt="ProjetJDR">
+                <h3>Projet JDR</h3>              
+                <p>Réalisé dans un cadre personnel, j'ai développé ce site WEB dans le but de m'assister lors de parties de Jeu De Rôle</p>
+                <a href="ProjetJDR.html">En savoir plus</a>
+            </div>
+            <div class="project">
+                <img src="ressource/coverBeerpong.jfif" alt="BeerpongVR">
+                <h3>Beerpong VR</h3>
+                <p>Réalisé dans le cadre d'un cours de Réalité Virtuelle lors de mon Erasmus, ce projet réalisé par une équipe de 3 personnes a pour but de reproduire le célèbre jeu du "Bière Pong" dans un jeu vidéo en VR</p>
+                <a href="projetBeerpong.html">En savoir plus</a>
+            </div>
+        </div>
     </section>
-
+    
     <section id="cv">
         <h2>CV</h2>
-        <!-- Ajoutez ici un lien vers votre CV en format PDF -->
+        <button class="download-button"><a href="ressource/cv.pdf" download>Télécharger PDF</a></button>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
         <div class="contact-info">
+            <div class="contact-item">
+                <i class="material-icons">location_on</i>
+                <p>Avignon</p>
+            </div>
             <div class="contact-item">
                 <i class="material-icons">phone</i>
                 <p>+33 7 82 22 98 54</p>
@@ -67,14 +96,6 @@
             <div class="contact-item">
                 <i class="material-icons">account_box</i>
                 <p><a href="https://fr.linkedin.com/in/samy-seghir-56b181211?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">LinkdIn</a></p>
-            </div>
-            <div class="contact-item">
-                <i class="material-icons">location_on</i>
-                <p>Avignon</p>
-            </div>
-            <div class="contact-item">
-                <i class="material-icons">github</i>
-                <p><a href="https://github.com/SEGHIRSamy" target="_blank">GitHub</a></p>
             </div>
         </div>
     </section>
