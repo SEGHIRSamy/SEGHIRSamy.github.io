@@ -31,7 +31,7 @@ header h1 {
 nav {
     margin-top: 10px;
     border-top: 1px solid #888;
-    padding-top: 10px; /
+    padding-top: 10px;
 }
 
 nav ul {
@@ -53,7 +53,6 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -89,8 +88,8 @@ section {
 }
 
 .project {
-    width: calc(25% - 1px);
-    background-color:#c2c2c2;
+    width: calc(33.333% - 10px);
+    background-color: #c2c2c2;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -133,7 +132,6 @@ section {
     background-color: #555;
 }
 
-
 .download-button {
     background-color: #627463;
     border: none;
@@ -166,7 +164,7 @@ section {
 }
 
 .contact-item i {
-    font-size: 40px; 
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -194,8 +192,8 @@ section {
 .project-images img {
     margin-bottom: 10px;
     width: 400px;
-    margin-right: 10px; 
-    border-radius: 8px; 
+    margin-right: 10px;
+    border-radius: 8px;
 }
 
 .project-description {
@@ -220,7 +218,6 @@ section {
     background-color: #555;
 }
 
-
 footer {
     background-color: #333;
     color: #fff;
@@ -234,4 +231,28 @@ footer {
 
 footer a {
     color: #ffa500;
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+        margin: 10px 0;
+    }
 }
